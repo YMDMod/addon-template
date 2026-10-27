@@ -1,10 +1,10 @@
 <h1 align="center">Шаблон аддона YMDMod</h1>
 
-<p align="center">С этого репозитория удобно начинать свой аддон для <a href="https://github.com/ymdmod/ymdmod">YMDMod</a>.</p>
+<p align="center">С этого репозитория удобно начинать свой аддон для <a href="https://github.com/YMDMod/YMDMod">YMDMod</a>.</p>
 
 <p align="center">
-  <a href="https://github.com/ymdmod/addon-template/generate"><img src="https://img.shields.io/badge/Use%20this%20template-2ea44f" alt="Use this template"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/ymdmod/addon-template?label=лицензия" alt="Лицензия"></a>
+  <a href="https://github.com/YMDMod/addon-template/generate"><img src="https://img.shields.io/badge/Use%20this%20template-2ea44f" alt="Use this template"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/YMDMod/addon-template?label=лицензия" alt="Лицензия"></a>
 </p>
 
 ---
@@ -125,7 +125,7 @@ module.exports = {
 ymd.notify('Сохранено', { type: 'success' });
 ```
 
-Прогресс, кнопки и закрытие из кода — в [README «Уведомлений»](https://github.com/ymdmod/notifications#для-авторов-аддонов).
+Прогресс, кнопки и закрытие из кода — в [README «Уведомлений»](https://github.com/YMDMod/notifications#для-авторов-аддонов).
 
 ### Библиотеки и зависимости
 
@@ -172,7 +172,7 @@ document.addEventListener('keydown', ymd.guard(onKey));
 ### Как попасть в каталог
 
 Добавьте репозиторию топик `ymdmod-addon` и выпустите релиз с тегом `vX.Y.Z`, где версия совпадает с
-`manifest.json`. Дальше всё сделает робот — подробности в [ymdmod/catalog](https://github.com/ymdmod/catalog).
+`manifest.json`. Дальше всё сделает робот — подробности в [ymdmod/catalog](https://github.com/YMDMod/catalog).
 
 У этого репозитория топика нет специально, чтобы сам шаблон не попал в каталог. Не забудьте добавить его у себя.
 
