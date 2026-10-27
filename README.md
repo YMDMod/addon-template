@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/YMDMod/addon-template/generate"><img src="https://img.shields.io/badge/Use%20this%20template-2ea44f" alt="Use this template"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/YMDMod/addon-template?label=лицензия" alt="Лицензия"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/YMDMod/addon-template?label=license" alt="License"></a>
 </p>
 
 ---
