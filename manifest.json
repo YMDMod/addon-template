@@ -1,0 +1,30 @@
+{
+  "id": "example",
+  "name": "Пример аддона",
+  "version": "1.1.0",
+  "description": "Шаблон для своего аддона: показывает возможности API на вкладке «Пример» страницы мода.",
+  "author": "YMDMod",
+  "type": "addon",
+  "apiVersion": 1,
+  "modVersions": [">=0.1.0 <1.0.0"],
+  "dependencies": { "notifications": ">=0.3.0" },
+  "defaultEnabled": true,
+  "main": "main.js",
+  "renderer": "renderer.js",
+  "settings": [
+    { "key": "greeting", "type": "string", "label": "Текст приветствия", "default": "Привет от примера!" },
+    { "key": "markNav", "type": "boolean", "label": "Отмечать пункты навигации точкой", "default": true },
+    { "key": "dotSize", "type": "number", "label": "Размер точки, px", "default": 6 },
+    {
+      "key": "dotColor",
+      "type": "select",
+      "label": "Цвет точки",
+      "default": "accent",
+      "options": [
+        { "value": "accent", "label": "Жёлтый" },
+        { "value": "green", "label": "Зелёный" },
+        { "value": "red", "label": "Красный" }
+      ]
+    }
+  ]
+}
